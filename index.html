@@ -1,125 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Prashant Paneru</title>
-  <style>
-    /* Set the video as the background */
-    body {
-      margin: 0;
-      padding: 0;
-      background: #000;
-      overflow: hidden;
-    }
-
-    video {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      min-width: 100%;
-      min-height: 100%;
-      width: auto;
-      height: auto;
-      transform: translateX(-50%) translateY(-50%);
-      z-index: -1;
-    }
-
-    /* Style for the center text */
-    .center-text {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-      font-size: 48px;
-      font-weight: bold;
-      text-align: center;
-      text-transform: uppercase;
-      animation: glitch 2s infinite;
-    }
-
-    .center-text::after {
-      content: "A Developer";
-      display: block;
-      font-size: 24px;
-      font-weight: normal;
-      margin-top: 10px;
-    }
-
-    .glitch {
-      position: relative;
-    }
-
-    .glitch::before,
-    .glitch::after {
-      content: attr(data-text);
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0.8;
-    }
-
-    .glitch::before {
-      left: 2px;
-      text-shadow: -2px 0 #00ff00;
-      animation: glitch-anim-1 2s infinite linear alternate-reverse;
-    }
-
-    .glitch::after {
-      left: -2px;
-      text-shadow: -2px 0 #ff0000;
-      animation: glitch-anim-2 3s infinite linear alternate-reverse;
-    }
-
-    @keyframes glitch-anim-1 {
-      0%, 100% {
-        clip: rect(40px, 9999px, 30px, 0);
-      }
-
-      20%, 24%, 53% {
-        clip: rect(20px, 9999px, 46px, 0);
-      }
-
-      25%, 52% {
-        clip: rect(35px, 9999px, 35px, 0);
-      }
-
-      40% {
-        clip: rect(70px, 9999px, 48px, 0);
-      }
-    }
-
-    @keyframes glitch-anim-2 {
-      0%, 100% {
-        clip: rect(86px, 9999px, 55px, 0);
-      }
-
-      20%, 24%, 53% {
-        clip: rect(68px, 9999px, 84px, 0);
-      }
-
-      25%, 52% {
-        clip: rect(38px, 9999px, 30px, 0);
-      }
-
-      40% {
-        clip: rect(10px, 9999px, 72px, 0);
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prash</title>
 </head>
 <body>
-  
-  
-  <!-- Video background -->
-  <video autoplay loop muted>
-    <source src="path/to/video.mp4" type="video/mp4">
-  </video>
+    <style>
+        .intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: wheat;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transform: translate(-50%, -50%);
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+#video-background video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+}
 
-  <!-- Center text -->
-  <div class="center-text">
-    Prashant Paneru
-  </div>
+    #video-background video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .subheading {
+        margin-left: 23%;
+    }
+    </style>
+
+
+
+    <div id="video-background">
+        <video autoplay muted loop>
+          <source src="vid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+    <div class="intro">
+    <h1 class="Myname">Prashant Paneru</h1>
+    <h2 class="subheading">A developer</h2>
+</div>
 </body>
 </html>
