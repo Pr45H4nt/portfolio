@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.centered-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.centered-text img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.centered-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.centered-text p {
+    font-size: 20px;
+}
+
+section {
+    /* padding: 80px 0; */
+    margin: 20%;
+    font-size: larger;
+
+    position: relative;
+    /* Add relative positioning to sections */
+    z-index: 1;
+    /* Ensure sections appear above the video background */
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.sec {
+    color: #ffffff;
+}
+
+.intro {
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.project img{
+    width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a{
+    text-decoration: none;
+    color: #aea540;
+    font-size: 120%;
+    text-shadow: #ffffff;
+    font-weight: 900;
+    
+}
+.project h5{
+    font-size: larger;
+}
