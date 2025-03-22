@@ -1,0 +1,72 @@
+{
+    "featuredProjects": [
+      {
+        "title": "Say Something",
+        "description": "I created a Django-based social media web application that allows users to perform various CRUD operations. The application also features a commenting system, which allows users to interact with one another. Additionally, the application has a robust user authentication system that ensures that only authorized users can access the platform. The web application is designed for opinion posting, allowing users to express their thoughts and ideas on various topics.",
+        "image": "/img/project-img/saysomething.png",
+        "tech": ["Django", "DRF", "HTML", "Bootstrap"],
+        "github": "https://github.com/Pr45H4nt/socialmediaweb",
+        "demo": "#"
+      },
+      {
+        "title": "Personal Blogging Platform",
+        "description": "I have developed a personal blogging web application that allows users to create and publish various types of content. This dynamic platform includes essential features such as a comment section and more. To enhance its functionality, I integrated an API using Django Rest Framework, enabling seamless communication between the front-end and back-end components. With this innovative web app, users can share their thoughts, engage in discussions through comments, and enjoy a user-friendly experience while managing their content.",
+        "image": "/img/project-img/trr.png",
+        "tech": ["Django", "DRF", "HTML", "Bootstrap"],
+        "github": "https://github.com/Pr45H4nt/therantroom",
+        "demo": "#"
+      },
+      {
+        "title": "Call Record API",
+        "description": "I created a Call Record API using the Django REST framework. This API lets you interact with call records, providing different methods such as GET, POST, PUT, PATCH, and DELETE to modify the records. It’s a functional tool that could be useful for managing and updating call records through API calls.",
+        "image": "/img/project-img/callapi1.png",
+        "tech": ["Django", "DRF", "HTML", "Bootstrap"],
+        "github": "https://github.com/Pr45H4nt/therantroom",
+        "demo": "#"
+      }
+    ],
+    "otherProjects": [
+      {
+        "title": "JobMailer-AI",
+        "description": "JobMailer-AI is an automated job application system that helps streamline the process of sending personalized internship/job inquiries to multiple companies. It combines web scraping, AI-powered content generation, and automated email handling to efficiently reach out to potential employers.",
+        "tech": ["Python", "BS4"],
+        "github": "https://github.com/Pr45H4nt/JobMailer-AI",
+        "demo": null
+      },
+      {
+        "title": "L in Discord",
+        "description": "This is a Discord bot inspired by **L** from *Death Note*, designed to provide responses with a personality that matches L's genius-level deduction skills, occasional trolling, and socially awkward style.",
+        "tech": ["Python", "Discord"],
+        "github": "https://github.com/Pr45H4nt/L-in-Discord",
+        "demo": null
+      },
+      {
+        "title": "IMDB Scraper",
+        "description": "This project is about scraping Sci-Fi movie data from IMDb from Sci-Fi genre.",
+        "tech": ["Python", "Scrapy"],
+        "github": "https://github.com/Pr45H4nt/IMDBscraper",
+        "demo": null
+      },
+      {
+        "title": "Sales Data Analysis",
+        "description": "This project analyzes sales data to answer important business questions about sales performance, customer behavior, and product preferences. Using Python, pandas was employed for data processing, and matplotlib for visualizing the results, making insights more accessible and actionable.",
+        "tech": ["Pandas", "Matplotlib"],
+        "github": "https://github.com/Pr45H4nt/Sales-Data-Analysis",
+        "demo": null
+      },
+      {
+        "title": "Task Management API",
+        "description": "A backend service for task management applications. Features user authentication, task CRUD operations, and team collaboration.",
+        "tech": ["Django", "DRF"],
+        "github": "https://github.com/Pr45H4nt/ToDo-WebAPI/",
+        "demo": null
+      },
+      {
+        "title": "Terminal Text Editor",
+        "description": "One of my earliest project, oldSchool Text Editor is a terminal-based text editor with a classic, typewriter-inspired interface. Built from scratch, this editor provides essential functionalities such as file opening, editing, saving, and features like undo and redo—all without the use of external libraries or resources.",
+        "tech": ["Python"],
+        "github": "https://github.com/Pr45H4nt/OLDSCHOOL-text-editor",
+        "demo": null
+      }
+    ]
+  }
