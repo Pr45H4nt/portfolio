@@ -1,25 +1,36 @@
 {
     "featuredProjects": [
+
+      {
+        "title": "CtrlD",
+        "description": "A comprehensive Django-based productivity tracking application that enables users to create collaborative study/work rooms, manage sessions, track todos, and monitor progress through detailed statistics and leaderboards.",
+        "image": "/img/project-img/ctrld/image.png",
+        "tech": ["Django", "DRF", "HTML", "PostgreSQL"],
+        "github": "https://github.com/Pr45H4nt/autocv",
+        "demo": "https://ctrld.pythonanywhere.com/"
+      },
+
+      {
+        "title": "AutoCV",
+        "description": "AutoCV is a powerful Django-based web application designed to simplify the resume creation process. It allows users to quickly and efficiently build professional resumes by filling out a series of intuitive forms, and then download them in various customizable styles.",
+        "image": "https://github.com/Pr45H4nt/AutoCV/raw/main/images/forms.png",
+        "tech": ["Django", "DRF", "HTML", "Bootstrap"],
+        "github": "https://github.com/Pr45H4nt/autocv",
+        "demo": ""
+      },
+
       {
         "title": "Say Something",
         "description": "I created a Django-based social media web application that allows users to perform various CRUD operations. The application also features a commenting system, which allows users to interact with one another. Additionally, the application has a robust user authentication system that ensures that only authorized users can access the platform. The web application is designed for opinion posting, allowing users to express their thoughts and ideas on various topics.",
-        "image": "/img/project-img/saysomething.png",
+        "image": "/img/project-img/say_something/saysomething.png",
         "tech": ["Django", "DRF", "HTML", "Bootstrap"],
         "github": "https://github.com/Pr45H4nt/socialmediaweb",
-        "demo": "#"
+        "demo": ""
       },
       {
         "title": "Personal Blogging Platform",
         "description": "I have developed a personal blogging web application that allows users to create and publish various types of content. This dynamic platform includes essential features such as a comment section and more. To enhance its functionality, I integrated an API using Django Rest Framework, enabling seamless communication between the front-end and back-end components. With this innovative web app, users can share their thoughts, engage in discussions through comments, and enjoy a user-friendly experience while managing their content.",
-        "image": "/img/project-img/trr.png",
-        "tech": ["Django", "DRF", "HTML", "Bootstrap"],
-        "github": "https://github.com/Pr45H4nt/therantroom",
-        "demo": "#"
-      },
-      {
-        "title": "Call Record API",
-        "description": "I created a Call Record API using the Django REST framework. This API lets you interact with call records, providing different methods such as GET, POST, PUT, PATCH, and DELETE to modify the records. It’s a functional tool that could be useful for managing and updating call records through API calls.",
-        "image": "/img/project-img/callapi1.png",
+        "image": "/img/project-img/trr/trr.png",
         "tech": ["Django", "DRF", "HTML", "Bootstrap"],
         "github": "https://github.com/Pr45H4nt/therantroom",
         "demo": "#"
